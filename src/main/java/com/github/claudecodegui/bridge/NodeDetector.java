@@ -713,7 +713,7 @@ public class NodeDetector {
 
     /**
      * Expands Windows environment variables in a path.
-     * For example: %USERPROFILE%\\.nvm -> C:\Users\xxx\.nvm
+     * For example: %USERPROFILE%\\.nvm -> C:\Users\xxx\.nvm, test commit 1
      */
     private String expandWindowsEnvVars(String path) {
         if (path == null) { return null; }
